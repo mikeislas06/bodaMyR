@@ -1,0 +1,45 @@
+.padrinos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.padrinos h3 {
+  margin: 0;
+  font-size: 36px;
+  color: #fff;
+}
+
+.padrinosContainer {
+  background-color: #fff;
+  border: 3px solid var(--main);
+  border-top-left-radius: 0px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 0px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 15px;
+  width: 100%;
+}
+
+.padrinosContainer img {
+  border-radius: 20px;
+}
+
+.padrinosContainer p {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.and {
+  color: var(--main);
+}

@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap");
+
+.LocationContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+}
+
+.Location {
+  background-color: #fff;
+  border: 3px solid var(--main);
+  border-top-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  width: 100%;
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 35px;
+}
+
+.Location h3 {
+  margin: 0;
+  font-size: 36px;
+}
+
+.Location .time {
+  font-family: "Nunito Sans";
+  font-size: 25px;
+  color: #7a7a7a;
+  margin: 0;
+}
+
+.Location .addressName {
+  font-size: 32px;
+  color: #7a7a7a;
+  margin: 0;
+  text-align: center;
+}
+
+.Location .address {
+  font-size: 24px;
+  color: #7a7a7a;
+  margin: 0;
+  text-align: center;
+}

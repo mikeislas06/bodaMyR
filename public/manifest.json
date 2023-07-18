@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Boda Rosy y Miguel",
+  "name": "Boda de Rosalba Guerrero Monarrez y Miguel Ángel Islas Chio",
   "icons": [
     {
       "src": "favicon.ico",
@@ -8,14 +8,14 @@
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "anillos800.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "800x600"
     },
     {
-      "src": "logo512.png",
+      "src": "anillos1000.png",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "1000x798"
     }
   ],
   "start_url": ".",

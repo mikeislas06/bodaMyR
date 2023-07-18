@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap");
+
+.counterTitle {
+  color: #fff;
+  font-size: 36px;
+  text-align: center;
+  margin: 0;
+}
+
+.counter {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 35px;
+  justify-content: center;
+  align-items: center;
+}
+
+.countBlock {
+  background: #fff;
+  width: 110px;
+  height: 110px;
+  border-radius: 15px;
+  border: 3px solid var(--main);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.countBlockNumber {
+  font-size: 32px;
+  font-weight: 600;
+  font-family: "Cinzel Decorative";
+  margin: 0;
+}
+
+.countBlockText {
+  color: #7a7a7a;
+  font-size: 30px;
+  font-weight: 600;
+  margin: 0;
+}

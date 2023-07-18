@@ -1,0 +1,43 @@
+.mainTitle {
+  color: #fff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.announcement {
+  font-size: 40px;
+  margin: 0;
+}
+
+.wedsInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border: 3px solid var(--main);
+  border-top-left-radius: 0px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 0px;
+  padding: 25px 10px;
+}
+
+.wedsNames {
+  color: var(--main);
+  font-size: 55px;
+  font-weight: 600;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.wedDate {
+  color: #413f40;
+  font-size: 33px;
+  font-weight: 600;
+  margin: 0;
+}

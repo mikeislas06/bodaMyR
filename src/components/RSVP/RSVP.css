@@ -1,0 +1,50 @@
+.RSVP {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: #fff;
+  border: 3px solid var(--main);
+  width: 100%;
+  border-top-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  padding: 20px;
+  text-align: center;
+}
+
+.RSVP form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.RSVP h3 {
+  font-size: 36px;
+}
+
+.RSVP hr {
+  width: 100%;
+  height: 4px;
+  border: none;
+  background-color: var(--main);
+}
+
+.RSVP input {
+  border: 2px solid var(--main);
+  text-align: start;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.RSVP button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: var(--main);
+  padding: 10px;
+  border-radius: 10px;
+}
