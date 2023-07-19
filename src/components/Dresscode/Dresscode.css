@@ -1,3 +1,7 @@
+.containerDC {
+  width: 90%;
+}
+
 .Dresscode {
   background-color: #fff;
   border: 3px solid var(--main);
@@ -9,7 +13,6 @@
   align-items: center;
   gap: 25px;
   padding: 15px;
-  width: 90%;
 }
 
 .Dresscode h3,
