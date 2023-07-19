@@ -1,6 +1,6 @@
 import React from "react";
 
-import song from "../../assets/aThousandYears.mp3";
+import song from "../../assets/song.mp3";
 import "./AudioPlayer.css";
 
 const AudioPlayer = () => {
