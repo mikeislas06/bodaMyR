@@ -42,11 +42,14 @@ const WeddingInfo = () => {
           initial="hidden"
           animate={control}
           transition={transition}
+          className="messageContainer"
         >
-          <p className="announcement a1">
-            Los momentos importantes los compartimos contigo
-          </p>
-          <p className="announcement a2">¡Te invitamos a nuestra Boda!</p>
+          <div>
+            <p className="announcement a1">
+              Los momentos importantes los compartimos contigo
+            </p>
+            <p className="announcement a2">¡Te invitamos a nuestra Boda!</p>
+          </div>
         </motion.div>
         <motion.div
           className="wedsInfo"
