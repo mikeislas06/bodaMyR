@@ -27,19 +27,22 @@ const CustomQuote = () => {
   }, [control, inView]);
 
   return (
-    <motion.section
-      ref={ref}
-      className="quoteContainer"
-      variants={variant}
-      initial={"hidden"}
-      animate={control}
-      transition={transition}
-    >
-      <div className="quoteInner">
-        <p>De todos los fuegos, el amor es el único que no puede extinguirse</p>
-        <p>- Pablo Neruda</p>
-      </div>
-    </motion.section>
+    <div ref={ref} className="quoteDiv">
+      <motion.section
+        className="quoteContainer"
+        variants={variant}
+        initial={"hidden"}
+        animate={control}
+        transition={transition}
+      >
+        <div className="quoteInner">
+          <p>
+            De todos los fuegos, el amor es el único que no puede extinguirse
+          </p>
+          <p>- Pablo Neruda</p>
+        </div>
+      </motion.section>
+    </div>
   );
 };
 
