@@ -1,3 +1,10 @@
+.mainImageContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .mainImageContainer .mainPhoto {
   border-top-left-radius: 20px;
   border-top-right-radius: 100px;

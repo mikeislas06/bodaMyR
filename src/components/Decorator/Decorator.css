@@ -1,0 +1,13 @@
+.decoratorContainer {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 768px) {
+  .decoratorContainer {
+    width: 40%;
+  }
+}
