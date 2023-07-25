@@ -46,7 +46,7 @@ const WeddingInfo = () => {
         >
           <div>
             <p className="announcement a1">
-              Los momentos importantes los compartimos contigo
+              Los momentos especiales los compartimos contigo
             </p>
             <p className="announcement a2">¡Te invitamos a nuestra Boda!</p>
           </div>

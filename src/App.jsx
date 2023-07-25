@@ -15,6 +15,7 @@ import Decorator from "./components/Decorator/Decorator";
 
 import { transition } from "./utils/framerProps";
 import "./App.css";
+import Disclaimer from "./components/Disclaimer/Disclaimer";
 
 const variant = {
   visible: {
@@ -59,7 +60,9 @@ const App = () => {
         initial="hidden"
         animate={control}
         transition={transition}
+        style={{ marginBottom: "50px" }}
       ></motion.iframe>
+      <Disclaimer />
     </div>
   );
 };
