@@ -1,37 +1,34 @@
-# Invitación Digital de Boda
+# Invitación de Boda Digital
 
-Este repositorio contiene un proyecto de Invitación Digital de Boda construido con React, CSS, animate.CSS, y la biblioteca react-slideshow-image.
-
-## Descripción general
-
-El proyecto de Invitación Digital de Boda tiene como objetivo proporcionar una invitación digital moderna e interactiva para bodas. El proyecto utiliza las siguientes tecnologías:
-
-- React
-- CSS
+Este proyecto es una Invitación de Boda Digital, construida con React, CSS, react-icons, react-intersection-observer y framer-motion, para proporcionar una experiencia interactiva y única para los invitados.
 
 ## Características
 
-- Invitación digital interactiva y visualmente atractiva para bodas.
-- Secciones personalizables para incluir detalles esenciales como fecha, hora, lugar y opciones de RSVP.
-- La integración de CSS permite un fácil estilo y personalización mediante variables.
+-   React
+-   CSS
+-   Interacciones animadas con `framer-motion` para una experiencia atractiva.
+-   Uso de `react-icons` para incluir iconos personalizados y elegantes.
+-   Observación de elementos con `react-intersection-observer` para activar animaciones al aparecer en pantalla.
 
 ## Instalación
 
 1. Clonar el repositorio: `git clone https://github.com/mikeislas06/bodaMyR`
-2. Navegar al directorio del proyecto: `cd 'folder'`
+2. Navegar al directorio del proyecto: `cd bodaMyR`
 3. Instalar las dependencias: `npm install`
 
 ## Uso
 
-1. Iniciar el servidor de desarrollo: `npm start`
-2. Abre tu navegador y visita `http://localhost:3000` para ver la invitación digital.
+1. Iniciar la aplicación: `npm start`
+2. Abre tu navegador y visita `http://localhost:3000` para ver la Invitación de Boda Digital en funcionamiento.
 
-Siéntete libre de personalizar la invitación para que se ajuste al tema de tu boda modificando los componentes, estilos e imágenes.
+## Personalización
+
+Siéntete libre de personalizar la Invitación de Boda Digital para adaptarla a tu boda:
+
+-   Modifica los detalles de la boda, como la fecha, hora, lugar, y opciones de RSVP.
+-   Cambia los estilos y colores utilizando CSS para que coincida con tu temática de boda.
+-   Agrega imágenes y personaliza las animaciones para hacerlo más especial y único para ti y tus invitados.
 
 ## Contribuciones
 
 ¡Las contribuciones son bienvenidas! Si encuentras algún error o tienes sugerencias para mejoras, por favor abre un problema o envía una solicitud de extracción (pull request).
-
-## Licencia
-
-Este proyecto está bajo la [Licencia MIT](LICENSE).
