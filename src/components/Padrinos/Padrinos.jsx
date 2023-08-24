@@ -79,7 +79,7 @@ const Padrinos = () => {
           <img src={cym} alt="" />
           <p>Miguel Angel Islas</p>
           <p className="and">y</p>
-          <p>Ma Isabel Monárrez</p>
+          <p>Bertha Alicia Guerrero</p>
         </motion.div>
       </section>
       <Decorator />
